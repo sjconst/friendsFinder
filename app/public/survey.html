@@ -1,0 +1,276 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Friend Finder App</title>
+    <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="text-center"> Survey Questions <a href="home.html"><button class="btn btn-primary" id="home"><span class="fas fa-home"></span></button></a></h1>
+        </div>
+        <form id="myForm">
+            <h2>About You</h2>
+            <div class="form-group">
+                <label for="name">Name (required)</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Enter name" required>  
+                <div class="invalid-feedback">Please enter a name!</div>          
+            </div>
+            <div class="form-group">
+                <label for="link">Link to photo image (required)</label>
+                <input type="text" class="form-control" id="link" aria-describedby="link" required>            
+            </div>        
+            <div class="form-group">
+                <h4>Question 1</h4>
+                <label for="sel1">Your mind is always buzzing with unexplored ideas and plans.</label>
+                <select class="form-control" id="sel1" required>
+                    <option data-hidden="true" selected hidden value="">select an option</option>
+                    <option>1 (strongly disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (strongly agree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <h4>Question 2</h4>
+                <label for="sel2">Generally speaking, you rely more on your experience than your imagination.</label>
+                <select class="form-control" id="sel2" required>
+                    <option data-hidden="true" selected hidden value="">select an option</option>
+                    <option>1 (strongly disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (strongly agree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <h4>Question 3</h4>
+                <label for="sel3">You find it easy to stay relaxed and focused even when there is some pressure.</label>
+                <select class="form-control" id="sel3" required>
+                    <option data-hidden="true" selected hidden value="">select an option</option>
+                    <option>1 (strongly disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (strongly agree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <h4>Question 4</h4>
+                <label for="sel4">You rarely do something just out of sheer curiosity.</label>
+                <select class="form-control" id="sel4" required>
+                    <option data-hidden="true" selected hidden value="">select an option</option>
+                    <option>1 (strongly disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (strongly agree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <h4>Question 5</h4>
+                <label for="sel5">People can rarely upset you.</label>
+                <select class="form-control" id="sel5" required>
+                    <option data-hidden="true" selected hidden value="">select an option</option>
+                    <option>1 (strongly disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (strongly agree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <h4>Question 6</h4>
+                <label for="sel6">It is often difficult for you to relate to other people’s feelings.</label>
+                <select class="form-control" id="sel6" required>
+                    <option data-hidden="true" selected hidden value="">select an option</option>
+                    <option>1 (strongly disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (strongly agree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <h4>Question 7</h4>
+                <label for="sel7">In a discussion, truth should be more important than people’s sensitivities.</label>
+                <select class="form-control" id="sel7" required>
+                    <option data-hidden="true" selected hidden value="">select an option</option>
+                    <option>1 (strongly disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (strongly agree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <h4>Question 8</h4>
+                <label for="sel8">You rarely get carried away by fantasies and ideas.</label>
+                <select class="form-control" id="sel8" required>
+                    <option data-hidden="true" selected hidden value="">select an option</option>
+                    <option>1 (strongly disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (strongly agree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <h4>Question 9</h4>
+                <label for="sel9">You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</label>
+                <select class="form-control" id="sel9" required>
+                    <option data-hidden="true" selected hidden value="">select an option</option>
+                    <option>1 (strongly disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (strongly agree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <h4>Question 10</h4>
+                <label for="sel10">You feel more energetic after spending time with a group of people.</label>
+                <select class="form-control" id="sel10" required value="">
+                    <option data-hidden="true" selected hidden>select an option</option>
+                    <option>1 (strongly disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (strongly agree)</option>
+                </select>
+            </div>
+            <button type="submit" id="submit" class="btn btn-default">Submit</button>
+        </form>
+    </div>
+<!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">      
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Your Best Friend Results: </h4>
+            </div>
+            <div class="modal-body">
+                <span id="myName"></span>
+                <img src="#" id="myImg" class="img-circle" style="width:20%" alt="my best friend"></img>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>      
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <p><a href="#" id="clear">Clear friends</a> | <a href="/api/friends">API Friends Link</a> | <a href="https://github.com/sjconst/friendsFinder">GitHub Repo</a>
+    </div>
+</footer>  
+</body>
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+//form validator
+function getValidated(inputs){    
+    let allValid = 0;
+    inputs.forEach(input => {
+    let isValid = input.checkValidity();
+    if(isValid){
+            allValid++;
+        }
+    });
+    return allValid;
+}
+//Get form input
+function getInput(){
+    let newScores = [];
+        for(let i = 1; i < 11; i++){
+            let x = $(`#sel${i}`).val();
+            let firstX = x.charAt(0);
+            newScores.push(parseInt(firstX));
+        };
+    let newFriend = {
+        name: $("#name").val().trim(),
+        photo: $("#link").val().trim(),
+        scores: newScores
+    };
+    return newFriend;
+}
+//Post new friend to api/friend
+function postFriend(newFriend) {
+    $.post("api/friends", newFriend, data => {
+        if(data){
+            console.log("Friend added")
+        } else {
+            console.log("Oops, something went wrong.")
+        }
+    })
+}
+//Compare submission to existing friends, find most compatible 
+function compareFriends(newFriend){    
+    let myScore = newFriend.scores;    
+    $.get("api/friends", data => {
+        let leastDif = 1.7976931348623157E+10308;
+        let friendName = "";
+        let friendURL = "";
+        data.forEach(element => {
+            let thisDif = 0;            
+            for(var i = 0; i < myScore.length; i++){
+                thisDif += Math.abs(element.scores[i] - myScore[i])
+            }
+            if(thisDif < leastDif){
+                leastDif = thisDif;
+                friendName = element.name;
+                friendURL = element.photo;
+            }
+        });
+        $("#myName").text(friendName); 
+        $("#myImg").attr("src", friendURL);   
+        $("#myModal").modal("toggle");
+    })
+}
+//Delete all friends
+function deleteFriends(){
+    $.ajax({
+        url: "api/friends",
+        method: "DELETE"
+    }).then(() => {
+        alert("Friends deleted!")
+    })
+};
+//Event handlers
+$("#submit").on("click", event => {
+    event.preventDefault();    
+    const inputs = document.querySelectorAll("input, select");
+    //Validate form
+    let allValid = getValidated(inputs);
+    //if not valid
+    if(allValid != inputs.length){
+        alert("You must enter all fields to submit")
+        event.stopPropagation();
+    } else { 
+        //if valid, get input from form
+        let newFriend = getInput();  
+        //Compare friends and display modal
+        compareFriends(newFriend);   
+        //post to api/friends list   
+        postFriend(newFriend);
+        //reset form
+        $("form").trigger("reset");
+    }   
+});
+$("#clear").on("click", event => {
+    confirm("Are you sure? This will delete all data stored in friends.");
+    if(confirm){
+        deleteFriends();
+    }    
+});
+
+</script>
+</html>
