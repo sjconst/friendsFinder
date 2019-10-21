@@ -66,5 +66,5 @@ This software uses the following open source packages:
 
 ## License
 
-https://img.shields.io/bower/l/bootstrap
+![MIT](https://img.shields.io/bower/l/bootstrap)
 
