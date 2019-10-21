@@ -62,7 +62,7 @@ This software uses the following open source packages:
 ## Author
 
 * Author: Stephanie Lake - https://github.com/sjconst
-* FriendFinder github repo: https://github.com/sjconst/friendsFinder
+* FriendFinder [github repo](https://github.com/sjconst/friendsFinder) or see deployed on [Heroku](https://intense-woodland-75491.herokuapp.com/)
 
 ## License
 
