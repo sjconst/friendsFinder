@@ -1,6 +1,6 @@
 # friendsFinder
 
-![node](https://img.shields.io/node/v/express) [npm](https://img.shields.io/npm/v/express) ![GitHub issues](https://img.shields.io/github/issues/sjconst/friendsFinder)
+![node](https://img.shields.io/node/v/express) ![npm](https://img.shields.io/npm/v/express) ![GitHub issues](https://img.shields.io/github/issues/sjconst/friendsFinder)
 
 A node.js app/full-stack site that takes in results from users' surveys, then compares their answers with those from other users. The app will then display the name and picture of the user with the best overall match. Express is used to handle the routing.
 
