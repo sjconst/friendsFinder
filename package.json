@@ -18,6 +18,6 @@
   "homepage": "https://github.com/sjconst/friendsFinder#readme",
   "dependencies": {
     "bootstrap-select": "^1.13.12",
-    "express": "^4.17.1"
+    "express": "^4.18.2"
   }
 }
